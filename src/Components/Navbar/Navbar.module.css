@@ -1,0 +1,12 @@
+.navbar_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.378);
+    height: 3rem;
+}
+
+.searchbar {
+    border-radius: 4px;
+    padding: 0.5rem;
+}

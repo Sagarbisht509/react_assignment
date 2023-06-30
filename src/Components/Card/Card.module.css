@@ -1,0 +1,41 @@
+.image_container {
+  position: relative;
+  margin: 2rem auto;
+  border: 2px solid black;
+  border-radius: 10%;
+}
+
+.card_image {
+  height: 14rem;
+  width: 10rem;
+  border-radius: 15%;
+  margin: 1rem 0.5rem;
+}
+
+.card_id {
+  position: absolute;
+  right: -3%;
+  top: -10%;
+  color: white;
+  border-radius: 100%;
+  padding: 10px;
+  background-color: black;
+}
+
+.card_name {
+  text-align: center;
+}
+
+@media only screen and (max-width: 450px ) {
+  .card_container {
+    margin: 0.5rem auto;
+  }
+
+
+  .card_image {
+    height: 14rem;
+    width: max-content;
+    border-radius: 15%;
+    margin: 1rem 0.5rem;
+  }
+}
